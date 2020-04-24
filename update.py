@@ -1,4 +1,4 @@
-# CanCyber Zeek Module Updater Python Script v2.1.01 2020 03 22
+# CanCyber Zeek Module Updater Python Script v2.1.02 2020 04 24
 import os
 import requests
 import re
@@ -58,10 +58,10 @@ else:
 
 
 if os.path.isfile(local + '/scripts/cancyber_sigs.sig'):
-   download("/scripts/cancyber_sigs.sig", source)
+   download("/signatures/cancyber_sigs.sig", source)
 else:
    print("missing " + str(local) + '/scripts/cancyber_sigs.sig')
-   download("cancyber_sigs.sig", source)
+   download("/signatures/cancyber_sigs.sig", source)
 
 
 if os.path.isfile(local + '/scripts/cancyber_expire.zeek'):
