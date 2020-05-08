@@ -27,7 +27,7 @@ def download(filename, name):
            f = open(local + '/' + str(filename), "w")
            f.write(r.text)
            f.close()
-     except Exception as (e):
+     except Exception as e:
         print("Error: " + str(e))
 
 
