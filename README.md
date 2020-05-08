@@ -254,7 +254,7 @@ Add to or create a new cron (as root):
 
 To upgrade all installed modules to the latest version, including the CanCyber Zeek module, use zkg:
 
-`sudo zkg upgrade cancyber_zeekk`
+`sudo zkg upgrade cancyber_zeek`
 
 ```
 The following packages will be UPGRADED:
